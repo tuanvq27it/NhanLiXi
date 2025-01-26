@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lì Xì Tết</title>
+    <link rel="stylesheet" type="text/css" href="css/nhabaolixi.css" />
+</head>
+
+<body>
+    <div class="popup-setup" id="popup-setup">
+        <h1 style="color: yellow;">Chúc Mừng Năm Mới!</h1>
+        <p>Hãy chọn giá và số lượng mà bạn muốn </p>
+        <label for="">10,000đ</label>
+        <input type="number" name="gia10" id="gia10">
+        <br>
+        <br>
+        <label for="">20,000đ</label>
+        <input type="number" name="gia20" id="gia20">
+        <br>
+        <br>
+        <label for="">30,000đ</label>
+        <input type="number" name="gia30" id="gia30">
+        <br>
+        <br>
+        <label for="">40,000đ</label>
+        <input type="number" name="gia40" id="gia40">
+        <br>
+        <br>
+        <label for="">50,000đ</label>
+        <input type="number" name="gia50" id="gia50">
+        <br>
+        <br>
+        <label for="">60,000đ</label>
+        <input type="number" name="gia60" id="gia60">
+        <br>
+        <br>
+        <label for="">70,000đ</label>
+        <input type="number" name="gia70" id="gia70">
+        <br>
+        <br>
+        <label for="">80,000đ</label>
+        <input type="number" name="gia80" id="gia80">
+        <br>
+        <br>
+        <label for="">90,000đ</label>
+        <input type="number" name="gia90" id="gia90">
+        <br>
+        <br>
+        <label for="">100,000đ</label>
+        <input type="number" name="gia100" id="gia100">
+        <br>
+        <button class="btn-index" onclick="gotoChooseLixi()">Tiếp tục</button>
+    </div>
+    <video autoplay muted loop class="phao_hoa">
+        <source src="img_vd_ms/50122-460241577_medium.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    <video class="video-bg" autoplay loop muted>
+        <source src="img_vd_ms/fireworks loop.mp4" type="video/mp4">
+        Trình duyệt của bạn không hỗ trợ video nền.
+    </video>
+    <audio autoplay loop >
+        <source src="img_vd_ms/bg.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="content">
+        <h1 style="color: yellow;">Chúc Mừng Năm Mới!</h1>
+        <p>Hãy bấm để nhận bao lì xì may mắn!</p>
+        <div class="container" id="lixi-container"></div>
+        <div class="overlay" id="overlay"></div>
+        <div class="popup" id="popup">
+            <h2 id="popup-message"></h2>
+            <button class="btn-index" onclick="returnToIndex()">Trở về</button>
+            <button class="btn-index" onclick="chontieplixi()">Nhận tiếp</button>
+        </div>
+    </div>
+
+    <script src="js/lixi.js"></script>
+</body>
+</html>
